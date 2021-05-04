@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#name {
+    text-align: center;
+    font-size: 10vh;
+    font-family: 'Original Surfer', cursive;
+    background: linear-gradient(yellow, red);
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+    height: 16vh;
+}
+
+#reset {
+    position: absolute;
+    height: 7vh;
+    width: 20vh;
+    text-align: center;
+    font-size: 5vh;
+    top: 0;
+}
+
+#board {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    height: 70vh;
+    width: 70vh;
+    border: 1vh solid rgb(161, 115, 170);
+    transform: translate(-50%, 0);
+    left: 50vw;
+}
+
+.tile {
+    height: 7vh;
+    width: 7vh;
+    box-sizing: border-box;
+    border: 2px solid white;
+    color: black;
+    text-align: center;
+    padding-top: 0.5vh;
+    background-size: contain;
+    background-color: rgb(160, 160, 160);
+}
+
+#message {
+    position: relative;
+    display: inline;
+    left: 43vw;
+    top: 1vw;
+    font-size: 5vh;
+}
